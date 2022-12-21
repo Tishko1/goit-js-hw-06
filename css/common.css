@@ -23,27 +23,14 @@ button {
   cursor: pointer;
 }
 
-.gallery{
+.gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
 }
-.list-item{
-   max-width: 440px; 
+
+.list-item {
+  max-width: 440px;
   height: 240px;
-  /* width: calc((100% - 60px) / 3); */
-  
 }
-
-/* #validation-input {
-  border: 3px solid #bdbdbd;
-}
-
-#validation-input.valid {
-  border-color: #4caf50;
-}
-
-#validation-input.invalid {
-  border-color: #f44336;
-} */
