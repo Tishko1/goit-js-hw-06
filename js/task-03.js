@@ -25,6 +25,4 @@ const markup = images
 
 console.log(markup);
 
-// Adding all the markup in one operation
-
 list.insertAdjacentHTML("beforeend", markup);

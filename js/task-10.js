@@ -21,8 +21,6 @@ const createBoxes = (amount) => {
   return elementsToAdd;
 };
 
-// console.log(createBoxes(2));
-
 const destroyBoxes = () => {
   boxes.innerHTML = "";
 };
@@ -31,8 +29,6 @@ btnCreate.addEventListener("click", () => {
   let boxesToAdd = createBoxes(inputNum.value);
   boxes.append(...boxesToAdd);
 });
-
-// console.log(inputNum.value)
 
 btnDestroy.addEventListener("click", () => {
   destroyBoxes();

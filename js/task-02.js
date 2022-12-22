@@ -20,10 +20,3 @@ const arr = ingredients.map((ingredient, idx, arr) => {
 list.after(...arr);
 
 console.log(arr);
-
-// ingredients.map( (ingredient,idx,arr) => {
-//   const itemEl = document.createElement("li");
-//   itemEl.classList.add("item");
-//   itemEl.textContent = arr[arr.length-1-idx];
-//   list.after(itemEl);
-//     } )
